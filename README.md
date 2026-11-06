@@ -26,7 +26,8 @@
 
 - PlanetX Lite - тест `crates/scene/tests/contract.rs`, CI берёт это
   хранилище и задаёт `PLANETX_SCENE`.
-- Модуль PlanetX - тест модуля по `expected/`, ещё не сделан.
+- Модуль PlanetX - тест `planetx/tests/test_scene_contract.py`,
+  папка - `PLANETX_SCENE` или `planetx-scene` рядом с рабочей копией.
 
 ## Правила
 
