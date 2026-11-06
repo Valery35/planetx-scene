@@ -180,5 +180,5 @@
    выбор - `core.kml.needs_kmz`, сторож -
    `test_kml.TestPictures.test_picture_needs_kmz`.
 7. `view.basemap` - название подложки, а не ключ. Решено 7 ноября
-   2026 года - новое поле `view.basemap_key`. Модуль и Lite его пока
-   не пишут.
+   2026 года - новое поле `view.basemap_key`. Модуль пишет и читает
+   его с коммита `9fc1c6b`, Lite - с коммита `df991a8`.
