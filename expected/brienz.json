@@ -1,0 +1,61 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "Профиль через озеро",
+   "Самое глубокое место"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "line": 1,
+   "point": 1
+  },
+  "places": 2,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 6000.0,
+   "heading": 20.0,
+   "lat": 46.69744,
+   "lon": 7.9565,
+   "tilt": 65.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Бриенцское озеро",
+  "places": "PlanetX: демо, Бриенцское озеро",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "aspect": false,
+    "buildings": false,
+    "clouds": false,
+    "contours": false,
+    "cutaway": false,
+    "deposits": false,
+    "fires": false,
+    "grid": false,
+    "paleo": false,
+    "plates": false,
+    "quakes": false,
+    "satellites": false,
+    "slope": false,
+    "stars": true,
+    "sun": false,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

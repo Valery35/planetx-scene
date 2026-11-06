@@ -1,0 +1,57 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [],
+  "overlay_kinds": {
+   "model": 2
+  },
+  "overlays": 2,
+  "place_kinds": {},
+  "places": 0,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 300.0,
+   "heading": 30.0,
+   "lat": 56.42189742028057,
+   "lon": 40.44565189854269,
+   "tilt": 60.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "3D-модели",
+  "places": "PlanetX: демо, 3D-модели",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "aspect": false,
+    "buildings": false,
+    "clouds": false,
+    "contours": false,
+    "cutaway": false,
+    "deposits": false,
+    "fires": false,
+    "grid": false,
+    "paleo": false,
+    "plates": false,
+    "quakes": false,
+    "satellites": false,
+    "slope": false,
+    "stars": true,
+    "sun": false,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "Разрез через Японский жёлоб по 38.5° с. ш.",
+   "Японский жёлоб",
+   "Эпицентр землетрясения Тохоку, 11 марта 2011 года",
+   "Вулкан Фудзи"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "line": 1,
+   "point": 3
+  },
+  "places": 4,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 2200000.0,
+   "heading": 0.0,
+   "lat": 34.0,
+   "lon": 139.0,
+   "tilt": 72.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Японский жёлоб",
+  "places": "PlanetX: демо, Японский жёлоб",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "buildings": false,
+    "clouds": false,
+    "cutaway": true,
+    "grid": false,
+    "quakes": true,
+    "stars": true,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0,
+   "wedge": [
+    120.0,
+    160.0,
+    0.0,
+    38.5
+   ]
+  }
+ }
+}

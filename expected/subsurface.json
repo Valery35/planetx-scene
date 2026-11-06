@@ -1,0 +1,53 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "1. Модель под поверхностью",
+   "2. Вырез блока",
+   "3. Разрез с картинкой",
+   "4. Наклонная скважина C-04",
+   "5. Путь для разреза модели"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "line": 1,
+   "point": 4
+  },
+  "places": 5,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 9000.0,
+   "heading": 30.0,
+   "lat": 59.445,
+   "lon": 56.885,
+   "tilt": 60.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Пермские отложения",
+  "places": "PlanetX: демо, пермские отложения",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "buildings": false,
+    "clouds": false,
+    "grid": false,
+    "stars": true,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 2.0
+  }
+ }
+}

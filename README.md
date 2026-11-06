@@ -15,6 +15,18 @@
   (`planetx/demo`).
 - `expected/` - ожидаемый разбор каждой сцены. Тесты модуля и Lite
   сравнивают свой разбор с ним.
+- `tools/expected.py` - снимает `expected/` ядром модуля, эталон
+  формата - модуль. Запуск из корня хранилища:
+
+  ```
+  python -I tools/expected.py <папка planetx/core модуля>
+  ```
+
+## Кто проверяет
+
+- PlanetX Lite - тест `crates/scene/tests/contract.rs`, CI берёт это
+  хранилище и задаёт `PLANETX_SCENE`.
+- Модуль PlanetX - тест модуля по `expected/`, ещё не сделан.
 
 ## Правила
 

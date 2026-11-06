@@ -1,0 +1,41 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "Гора Олимп",
+   "Долины Маринер",
+   "«Кьюриосити», кратер Гейл",
+   "«Персеверанс», кратер Езеро",
+   "«Чжужун», равнина Утопия",
+   "«Спирит», кратер Гусев",
+   "«Оппортьюнити», плато Меридиана"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "point": 7
+  },
+  "places": 7,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "mars",
+   "distance": 12000000.0,
+   "heading": 0.0,
+   "lat": 10.0,
+   "lon": -80.0,
+   "tilt": 0.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "PlanetX: демо, Марс",
+  "places": "PlanetX: демо, Марс",
+  "time": null,
+  "view": {
+   "extras": {
+    "stars": true
+   }
+  }
+ }
+}

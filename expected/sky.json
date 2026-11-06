@@ -1,0 +1,46 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "Орион",
+   "Плеяды",
+   "Галактика Андромеды (M31)",
+   "Кассиопея",
+   "Большая Медведица",
+   "Лира с Вегой",
+   "Южный Крест"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "point": 7
+  },
+  "places": 7,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "sky",
+   "distance": 4703107.9275177885,
+   "heading": 0.0,
+   "lat": -1.0,
+   "lon": 84.0,
+   "tilt": 0.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Небо",
+  "places": "PlanetX: демо, небо",
+  "time": null,
+  "view": {
+   "extras": {
+    "stars": true
+   },
+   "sky": [
+    84.0,
+    -1.0,
+    35.0
+   ]
+  }
+ }
+}

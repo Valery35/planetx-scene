@@ -1,0 +1,62 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "Станция Пасила",
+   "Хельсинки, главный вокзал",
+   "Тиккурила"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "point": 3
+  },
+  "places": 3,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 1500.0,
+   "heading": 20.0,
+   "lat": 60.1987,
+   "lon": 24.9334,
+   "tilt": 60.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Поезда Финляндии, вживую",
+  "places": "PlanetX: демо, поезда Финляндии",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "aspect": false,
+    "buildings": false,
+    "clouds": false,
+    "contours": false,
+    "cutaway": false,
+    "deposits": false,
+    "fires": false,
+    "grid": false,
+    "paleo": false,
+    "plates": false,
+    "quakes": false,
+    "satellites": false,
+    "slope": false,
+    "stars": true,
+    "sun": false,
+    "temperature": false,
+    "trains": true
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "Central Underground Station",
+   "Encore Station",
+   "LVCC Central Plaza Station",
+   "LVCC South Station",
+   "Resorts World Station",
+   "Riviera Station",
+   "West Station",
+   "Westgate Resort Station"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "point": 8
+  },
+  "places": 8,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 1100.0,
+   "heading": 20.0,
+   "lat": 36.1315,
+   "lon": -115.1555,
+   "tilt": 62.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Тоннели Vegas Loop",
+  "places": "PlanetX: демо, тоннели Vegas Loop",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "buildings": false,
+    "clouds": false,
+    "grid": false,
+    "stars": true,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

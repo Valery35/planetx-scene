@@ -1,0 +1,63 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "Погрузка",
+   "Дорога самосвалов"
+  ],
+  "overlay_kinds": {
+   "model": 6
+  },
+  "overlays": 6,
+  "place_kinds": {
+   "line": 1,
+   "point": 1
+  },
+  "places": 2,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 4200.0,
+   "heading": 25.0,
+   "lat": 58.753125418799065,
+   "lon": 59.511832212036914,
+   "tilt": 55.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Самосвалы, Качканар",
+  "places": "PlanetX: демо, самосвалы - Качканар, Главный карьер",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "aspect": false,
+    "buildings": false,
+    "clouds": false,
+    "contours": false,
+    "cutaway": false,
+    "deposits": false,
+    "fires": false,
+    "grid": false,
+    "paleo": false,
+    "plates": false,
+    "quakes": false,
+    "satellites": false,
+    "slope": false,
+    "stars": true,
+    "sun": false,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

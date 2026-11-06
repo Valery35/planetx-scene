@@ -1,0 +1,48 @@
+{
+ "places": {
+  "folders": 1,
+  "names": [],
+  "overlay_kinds": {
+   "ground": 3,
+   "photo": 1,
+   "screen": 1
+  },
+  "overlays": 5,
+  "place_kinds": {},
+  "places": 0,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 700000.0,
+   "heading": 0.0,
+   "lat": 45.0,
+   "lon": 60.0,
+   "tilt": 0.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Аральское море",
+  "places": "PlanetX: демо, Аральское море",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "buildings": false,
+    "clouds": false,
+    "grid": false,
+    "stars": true,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

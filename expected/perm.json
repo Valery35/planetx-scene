@@ -1,0 +1,61 @@
+{
+ "places": {
+  "folders": 2,
+  "names": [
+   "Вокзал Пермь-1",
+   "Речной вокзал",
+   "Театр оперы и балета",
+   "Эспланада",
+   "Пермский университет",
+   "Маршрут прогулки",
+   "Камская ГЭС",
+   "Аэропорт Большое Савино",
+   "Мотовилиха",
+   "Эспланада, выдавлена на 30 м",
+   "Вдоль Камы до ГЭС",
+   "Облёт центра"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "line": 3,
+   "point": 8,
+   "polygon": 1
+  },
+  "places": 12,
+  "tours": 1
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 5000.0,
+   "heading": 20.0,
+   "lat": 58.0105,
+   "lon": 56.2294,
+   "tilt": 55.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Пермь",
+  "places": "PlanetX: демо, Пермь",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "buildings": true,
+    "clouds": false,
+    "grid": false,
+    "stars": true,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

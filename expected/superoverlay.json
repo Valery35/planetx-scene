@@ -1,0 +1,44 @@
+{
+ "places": {
+  "folders": 1,
+  "names": [],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {},
+  "places": 0,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "earth",
+   "distance": 17000.0,
+   "heading": 0.0,
+   "lat": 37.401,
+   "lon": -122.096,
+   "tilt": 0.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "Суперналожение, Маунтин-Вью",
+  "places": "PlanetX: демо, суперналожение",
+  "time": null,
+  "view": {
+   "basemap": "Esri World Imagery",
+   "extras": {
+    "buildings": false,
+    "clouds": false,
+    "grid": false,
+    "stars": true,
+    "temperature": false
+   },
+   "groups": [
+    "borders",
+    "places",
+    "roads",
+    "water_names"
+   ],
+   "relief": true,
+   "scale": 1.0
+  }
+ }
+}

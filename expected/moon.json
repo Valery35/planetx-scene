@@ -1,0 +1,42 @@
+{
+ "places": {
+  "folders": 0,
+  "names": [
+   "«Аполлон-11»",
+   "«Аполлон-12»",
+   "«Аполлон-14»",
+   "«Аполлон-15»",
+   "«Аполлон-16»",
+   "«Аполлон-17»",
+   "«Луноход-1»",
+   "«Луноход-2»"
+  ],
+  "overlay_kinds": {},
+  "overlays": 0,
+  "place_kinds": {
+   "point": 8
+  },
+  "places": 8,
+  "tours": 0
+ },
+ "scene": {
+  "camera": {
+   "body": "moon",
+   "distance": 5500000.0,
+   "heading": 0.0,
+   "lat": 10.0,
+   "lon": 0.0,
+   "tilt": 0.0
+  },
+  "format": 1,
+  "layers": [],
+  "name": "PlanetX: демо, Луна",
+  "places": "PlanetX: демо, Луна",
+  "time": null,
+  "view": {
+   "extras": {
+    "stars": true
+   }
+  }
+ }
+}
