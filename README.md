@@ -22,6 +22,12 @@
   python -I tools/expected.py <папка planetx/core модуля>
   ```
 
+- `data/sources.json` - каталог источников подложек и наложений
+  тайлами, общий для модуля, Lite и RustPlanetX. Его выгружает модуль
+  (`planetx/tools/export_sources.py`), Lite держит копию и сверяет
+  её с этим файлом тестом.
+- `site/` - страница линейки PlanetX для сайта и лента обновлений.
+
 ## Кто проверяет
 
 - PlanetX Lite - тест `crates/scene/tests/contract.rs`, CI берёт это
