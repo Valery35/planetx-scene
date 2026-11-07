@@ -1,0 +1,20 @@
+[
+ {"date": "2026-11-07", "product": "pro", "version": "1.42.0",
+  "ru": "Названия на глобусе издалека мельче. Сцена хранит ключ подложки и картинки значков.",
+  "en": "Place names get smaller from afar. A scene keeps the base map key and icon pictures."},
+ {"date": "2026-11-07", "product": "lite", "version": "0.24.0",
+  "ru": "3D Tiles по ссылке, «Мои слои» - разделом панели, сцена общая с модулем 1.42.",
+  "en": "3D Tiles by a link, My layers as a panel section, a scene shared with the plugin 1.42."},
+ {"date": "2026-11-07", "product": "rust", "version": "0.4.2",
+  "ru": "Сцена модуля открывается на той же подложке.",
+  "en": "A plugin scene opens on the same base map."},
+ {"date": "2026-11-06", "product": "rust", "version": "0.4.1",
+  "ru": "Растры и тайловые слои RustGIS на глобусе, все слои проекта в списке, подписи мельче.",
+  "en": "RustGIS rasters and tile layers on the globe, all project layers listed, smaller labels."},
+ {"date": "2026-11-06", "product": "pro", "version": "1.41.0",
+  "ru": "Открытые национальные карты: TopPlusOpen, basemap.de, swisstopo, PDOK.",
+  "en": "Open national maps: TopPlusOpen, basemap.de, swisstopo, PDOK."},
+ {"date": "2026-11-04", "product": "lite", "version": "0.23.0",
+  "ru": "«Мои слои» хранятся между запусками, одно окно «Распознавание».",
+  "en": "My layers stay between launches, one Recognition window."}
+]
