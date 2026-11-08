@@ -1,4 +1,13 @@
 [
+ {"date": "2026-11-08", "product": "rust", "version": "0.5.2",
+  "ru": "Меню слоя проекта RustGIS на глобусе, слои как на карте RustGIS, своё окно «О программе».",
+  "en": "A RustGIS project layer menu on the globe, layers as on the RustGIS map, its own About window."},
+ {"date": "2026-11-08", "product": "lite", "version": "0.25.0",
+  "ru": "Открытые национальные карты, маршруты Waymarked Trails, температура поверхности.",
+  "en": "Open national maps, Waymarked Trails routes, the surface temperature."},
+ {"date": "2026-11-07", "product": "pro", "version": "1.42.1",
+  "ru": "Страницы модуля на сайте - в разделе PlanetX, каталог подложек - общим файлом.",
+  "en": "The plugin pages moved to the PlanetX section, the base map catalog is a shared file."},
  {"date": "2026-11-07", "product": "pro", "version": "1.42.0",
   "ru": "Названия на глобусе издалека мельче. Сцена хранит ключ подложки и картинки значков.",
   "en": "Place names get smaller from afar. A scene keeps the base map key and icon pictures."},
