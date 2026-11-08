@@ -1,4 +1,7 @@
 [
+ {"date": "2026-11-09", "product": "lite", "version": "0.26.0",
+  "ru": "Спутниковые данные JAXA Earth по месяцам, слои сцен I3S сервисов ArcGIS по ссылке.",
+  "en": "JAXA Earth satellite data by month, I3S scene layers of ArcGIS by a link."},
  {"date": "2026-11-08", "product": "rust", "version": "0.5.2",
   "ru": "Меню слоя проекта RustGIS на глобусе, слои как на карте RustGIS, своё окно «О программе».",
   "en": "A RustGIS project layer menu on the globe, layers as on the RustGIS map, its own About window."},
