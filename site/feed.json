@@ -1,4 +1,7 @@
 [
+ {"date": "2026-11-10", "product": "rust", "version": "0.5.5",
+  "ru": "Помощник ИИ RustGIS управляет глобусом, расчёты ложатся в проект в цветах глобуса.",
+  "en": "The RustGIS AI Assistant drives the globe, analysis results go to the project in the globe's colours."},
  {"date": "2026-11-09", "product": "lite", "version": "0.26.0",
   "ru": "Спутниковые данные JAXA Earth по месяцам, слои сцен I3S сервисов ArcGIS по ссылке.",
   "en": "JAXA Earth satellite data by month, I3S scene layers of ArcGIS by a link."},
