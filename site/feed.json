@@ -1,4 +1,7 @@
 [
+ {"date": "2026-11-10", "product": "rust", "version": "0.5.6",
+  "ru": "Слои глобуса уходят в проект RustGIS, как модуль кладёт их в проект QGIS.",
+  "en": "Globe layers go to the RustGIS project, as the plugin puts them into the QGIS project."},
  {"date": "2026-11-10", "product": "rust", "version": "0.5.5",
   "ru": "Помощник ИИ RustGIS управляет глобусом, расчёты ложатся в проект в цветах глобуса.",
   "en": "The RustGIS AI Assistant drives the globe, analysis results go to the project in the globe's colours."},
