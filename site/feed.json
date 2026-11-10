@@ -1,4 +1,7 @@
 [
+ {"date": "2026-11-11", "product": "rust", "version": "0.5.7",
+  "ru": "Отмывка рельефа в каждом пикселе, затенение впадин, очистка выбросов высот.",
+  "en": "Per-pixel hillshading, shaded valleys, a cleanup of height spikes."},
  {"date": "2026-11-10", "product": "rust", "version": "0.5.6",
   "ru": "Слои глобуса уходят в проект RustGIS, как модуль кладёт их в проект QGIS.",
   "en": "Globe layers go to the RustGIS project, as the plugin puts them into the QGIS project."},
