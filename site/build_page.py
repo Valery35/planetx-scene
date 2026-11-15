@@ -10,8 +10,9 @@
 для QGIS, PlanetX Lite и RustPlanetX, с общей короткой лентой
 обновлений. Вид, тексты на двух языках и переключатель языка - из
 сборщика страниц Lite (tools/build_pages.py), чтобы страницы линейки
-выглядели одинаково. Лента - site/feed.json, свежие записи сверху,
-на странице не больше FEED записей. Итог - site/pages/planetx.html,
+выглядели одинаково. Лента - выпуски всех продуктов Информ++ из файлов
+site/feed/<ключ>.json (site/feed.py, порядок подачи - site/FEED.md),
+свежие записи сверху, на странице не больше FEED записей. Итог - site/pages/planetx.html,
 код для блока «Встроить» Google Сайтов.
 """
 import importlib.util
@@ -20,17 +21,18 @@ import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-LITE_TOOLS = sys.argv[1] if len(sys.argv) > 1 else r"C:\Dev\planetx-lite\tools"
+sys.path.insert(0, HERE)  # python -I не кладёт папку сборщика в путь
+import feed  # noqa: E402
+
+LITE_TOOLS = r"C:\Dev\planetx-lite\tools"
+FEED_FOLDER = feed.FOLDER
 SITE = "https://www.informpp.ru/главная-страница"
 PAGE = SITE + "/planetx"
 PRO = PAGE + "/qgis-planetx"
 LITE = PAGE + "/planetx-lite"
 PRO_CATALOG = "https://plugins.qgis.org/plugins/planetx/"
-PRO_RELEASES = "https://github.com/Valery35/planetx/releases"
 LITE_WEB = "https://valery35.github.io/planetx-lite/"
-LITE_RELEASES = "https://github.com/Valery35/planetx-lite/releases"
 RUST = "https://github.com/Valery35/rustplanetx"
-RUST_RELEASES = RUST + "/releases"
 RUSTGIS = "https://github.com/opengeos/RustGIS"
 SCENE = "https://github.com/Valery35/planetx-scene"
 FEED = 6  # записей ленты на странице
@@ -52,9 +54,9 @@ PRODUCTS = {
 }
 
 
-def lite_builder():
+def lite_builder(tools=LITE_TOOLS):
     spec = importlib.util.spec_from_file_location(
-        "build_pages", os.path.join(LITE_TOOLS, "build_pages.py"))
+        "build_pages", os.path.join(tools, "build_pages.py"))
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module
@@ -165,22 +167,22 @@ def body(b):
         '<p class="sub"><a target="_blank" href="%s" data-i18n="lang.a"></a></p>'
         % SCENE)
 
-    with open(os.path.join(HERE, "feed.json"), encoding="utf-8") as fh:
-        feed = json.load(fh)
-    feed.sort(key=lambda e: e["date"], reverse=True)
+    names = feed.load(FEED_FOLDER)
+    shown = feed.merged(names)[:FEED]
     items = []
-    for e in feed[:FEED]:
-        ru_name, en_name = PRODUCTS[e["product"]]
+    for e in shown:
+        name = names[e["key"]]
         day = "%s.%s" % (e["date"][8:10], e["date"][5:7])
-        items.append(("%s · %s %s" % (day, ru_name, e["version"]),
-                      "%s · %s %s" % (day, en_name, e["version"]),
+        items.append(("%s · %s %s" % (day, name["ru"], e["version"]),
+                      "%s · %s %s" % (day, name["en"], e["version"]),
                       e["ru"], e["en"]))
+    # Ссылки на выпуски - продуктов из показанных записей, в порядке ленты.
+    keys = list(dict.fromkeys(e["key"] for e in shown))
     t("feed.all", "Все выпуски:", "All releases:")
-    links = ('<p class="sub"><span data-i18n="feed.all"></span> '
-             '<a target="_blank" href="%s" data-i18n="prod.pro"></a> · '
-             '<a target="_blank" href="%s" data-i18n="prod.lite"></a> · '
-             '<a target="_blank" href="%s" data-i18n="prod.rust"></a></p>'
-             % (PRO_RELEASES, LITE_RELEASES, RUST_RELEASES))
+    links = '<p class="sub"><span data-i18n="feed.all"></span> %s</p>' % " · ".join(
+        '<a target="_blank" href="%s" data-i18n="%s"></a>'
+        % (names[k]["releases"], t("rel.%s" % k, names[k]["ru"], names[k]["en"]))
+        for k in keys)
     news = section("news", ("Обновления", "Updates"),
                    ("Последние выпуски", "Latest releases"), None,
                    rows("feed", items) + links)
@@ -242,7 +244,7 @@ var TEXTS = %s;
 
 
 def main():
-    b = lite_builder()
+    b = lite_builder(sys.argv[1] if len(sys.argv) > 1 else LITE_TOOLS)
     out = os.path.join(HERE, "pages")
     os.makedirs(out, exist_ok=True)
     text = page(b)

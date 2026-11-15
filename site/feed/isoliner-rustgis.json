@@ -1,0 +1,7 @@
+{"ru": "Isoliner для RustGIS", "en": "Isoliner for RustGIS",
+ "releases": "https://github.com/Valery35/isoliner-rustgis/releases",
+ "entries": [
+  {"date": "2026-11-16", "version": "0.1.2",
+   "ru": "Тринадцать инструментов модуля в своей вкладке ленты, нужен RustGIS 0.6.0 и новее.",
+   "en": "Thirteen tools of the plugin in their own ribbon tab, RustGIS 0.6.0 or later is needed."}
+ ]}

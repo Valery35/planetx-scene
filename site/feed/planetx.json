@@ -1,0 +1,16 @@
+{"ru": "PlanetX для QGIS", "en": "PlanetX for QGIS",
+ "releases": "https://github.com/Valery35/planetx/releases",
+ "entries": [
+  {"date": "2026-11-15", "version": "1.44.1",
+   "ru": "Многоугольник через меридиан 180 заливается на своём месте, а не через весь глобус.",
+   "en": "A polygon across the 180th meridian is filled in its place, not across the whole globe."},
+  {"date": "2026-11-07", "version": "1.42.1",
+   "ru": "Страницы модуля на сайте - в разделе PlanetX, каталог подложек - общим файлом.",
+   "en": "The plugin pages moved to the PlanetX section, the base map catalog is a shared file."},
+  {"date": "2026-11-07", "version": "1.42.0",
+   "ru": "Названия на глобусе издалека мельче. Сцена хранит ключ подложки и картинки значков.",
+   "en": "Place names get smaller from afar. A scene keeps the base map key and icon pictures."},
+  {"date": "2026-11-06", "version": "1.41.0",
+   "ru": "Открытые национальные карты: TopPlusOpen, basemap.de, swisstopo, PDOK.",
+   "en": "Open national maps: TopPlusOpen, basemap.de, swisstopo, PDOK."}
+ ]}

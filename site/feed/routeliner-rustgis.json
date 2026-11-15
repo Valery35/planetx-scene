@@ -1,0 +1,7 @@
+{"ru": "Routeliner для RustGIS", "en": "Routeliner for RustGIS",
+ "releases": "https://github.com/Valery35/routeliner-rustgis/releases",
+ "entries": [
+  {"date": "2026-11-16", "version": "0.1.0",
+   "ru": "События на маршрутах и пикетаж без QGIS - восемь инструментов модуля в своей вкладке ленты.",
+   "en": "Route events and chainage without QGIS - eight tools of the plugin in their own ribbon tab."}
+ ]}
