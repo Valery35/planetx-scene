@@ -1,4 +1,13 @@
 [
+ {"date": "2026-11-15", "product": "lite", "version": "0.30.0",
+  "ru": "Многоугольники и линии через меридиан 180 без полос через Берингов пролив, муниципальные образования России, высоты I3S с геоидом.",
+  "en": "Polygons and lines across the 180th meridian without bands over the Bering Strait, municipalities of Russia, I3S heights with the geoid."},
+ {"date": "2026-11-15", "product": "rust", "version": "0.6.1",
+  "ru": "Глобус для RustGIS на Windows, Linux и macOS, пакет меньше на четверть, внутри Lite 0.30.0.",
+  "en": "The globe for RustGIS on Windows, Linux and macOS, a package a quarter smaller, Lite 0.30.0 inside."},
+ {"date": "2026-11-15", "product": "pro", "version": "1.44.1",
+  "ru": "Многоугольник через меридиан 180 заливается на своём месте, а не через весь глобус.",
+  "en": "A polygon across the 180th meridian is filled in its place, not across the whole globe."},
  {"date": "2026-11-12", "product": "lite", "version": "0.29.0",
   "ru": "Архив Esri Wayback со шторкой, данные JAXA по участку, подложки с предупреждением, тени 3D-зданий.",
   "en": "The Esri Wayback archive with a swipe, JAXA data of an area, base maps with a warning, shadows of 3D buildings."},
