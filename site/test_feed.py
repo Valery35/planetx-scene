@@ -121,12 +121,12 @@ class Page(unittest.TestCase):
     def test_page_lists_products_of_several_stores_by_date(self):
         b = build_page.lite_builder()
         with Folder(FILES) as folder:
-            old = build_page.FEED_FOLDER
-            build_page.FEED_FOLDER = folder
+            old = build_page.FEED_FOLDER, build_page.FEED
+            build_page.FEED_FOLDER, build_page.FEED = folder, 6
             try:
                 html = build_page.page(b)
             finally:
-                build_page.FEED_FOLDER = old
+                build_page.FEED_FOLDER, build_page.FEED = old
         marks = ["16.11 · Isoliner для RustGIS 0.1.2", "16.11 · Routeliner для RustGIS 0.1.1",
                  "16.11 · Routeliner для RustGIS 0.1.0", "15.11 · PlanetX Lite 0.30.0",
                  "15.11 · PlanetX для QGIS 1.44.1", "12.11 · PlanetX Lite 0.29.0"]

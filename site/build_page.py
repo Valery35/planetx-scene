@@ -35,7 +35,7 @@ LITE_WEB = "https://valery35.github.io/planetx-lite/"
 RUST = "https://github.com/Valery35/rustplanetx"
 RUSTGIS = "https://github.com/opengeos/RustGIS"
 SCENE = "https://github.com/Valery35/planetx-scene"
-FEED = 6  # записей ленты на странице
+FEED = 15  # записей ленты на странице, число назвал автор 16.11.2026
 
 # Ролики YouTube: ключ, название по-русски и по-английски.
 FILMS = (
