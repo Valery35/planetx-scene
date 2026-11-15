@@ -1,0 +1,19 @@
+{"ru": "QGIS Routeliner", "en": "QGIS Routeliner",
+ "releases": "https://github.com/Valery35/routeliner/releases",
+ "entries": [
+  {"date": "2026-10-26", "version": "0.5.2",
+   "ru": "В окне «О модуле» и в справках инструментов появилась ссылка «Поддержать разработку», а страница модуля на GitHub открывается по-английски.",
+   "en": "The About window and the tool help now carry a «Support the development» link, and the plugin page on GitHub opens in English."},
+  {"date": "2026-09-25", "version": "0.5.1",
+   "ru": "Своя панель инструментов со списком инструментов по номерам, окно «О модуле» и журнал работы routeliner.log в папке профиля QGIS.",
+   "en": "A toolbar of its own with the tools listed by number, an About window and the routeliner.log work log in the QGIS profile folder."},
+  {"date": "2026-09-24", "version": "0.5.0",
+   "ru": "Пикетаж берётся из M-значений маршрута с пикетажными уравнениями, а новый инструмент 1.03 записывает пикетаж в M по ведомости или контрольным точкам.",
+   "en": "Chainage is taken from route M values with chainage equations, and the new tool 1.03 writes chainage into M from a ledger or control points."},
+  {"date": "2026-09-24", "version": "0.4.3",
+   "ru": "Значения в полях результатов округляются - длины, меры и отметки до 0,001 м, углы до 0,01°.",
+   "en": "Result field values are rounded - lengths, measures and elevations to 0.001 m, angles to 0.01°."},
+  {"date": "2026-09-23", "version": "0.4.0",
+   "ru": "Новая группа «Профили» - таблица продольного профиля с отметками растров и чертёж профиля с сеткой строк, уклонами и развёрнутым планом.",
+   "en": "A new Profiles group - a longitudinal profile table with raster elevations and a profile drawing with a row grid, slopes and an unfolded plan."}
+ ]}
