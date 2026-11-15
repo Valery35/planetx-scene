@@ -1,0 +1,13 @@
+{"ru": "Isoliner3D для RustGIS", "en": "Isoliner3D for RustGIS",
+ "releases": "https://github.com/Valery35/isoliner-scene/releases",
+ "entries": [
+  {"date": "2026-11-14", "version": "0.5.1",
+   "ru": "Своя вкладка на ленте RustGIS с меню инструментов, итоги несут поля исходных объектов.",
+   "en": "Its own RustGIS ribbon tab with tool menus, and results keep the fields of their input features."},
+  {"date": "2026-11-13", "version": "0.5.0",
+   "ru": "Десять инструментов модуля в панели RustGIS, итоги складываются в цепочку, объёмные открываются в окне сцены.",
+   "en": "Ten plugin tools in the RustGIS Tools pane, results chain from step to step, 3D results open in the scene window."},
+  {"date": "2026-11-13", "version": "0.4.0",
+   "ru": "Первый выпуск - слои проекта RustGIS открываются в сцене Isoliner3D в системе координат карты, первые инструменты модуля.",
+   "en": "The first release - RustGIS project layers open in the Isoliner3D scene in the map coordinate system, the first plugin tools."}
+ ]}

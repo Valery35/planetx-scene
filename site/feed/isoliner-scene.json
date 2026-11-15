@@ -1,0 +1,16 @@
+{"ru": "Isoliner Scene", "en": "Isoliner Scene",
+ "releases": "https://github.com/Valery35/isoliner-scene/releases",
+ "entries": [
+  {"date": "2026-11-13", "version": "0.4.0",
+   "ru": "Окно сцены одно на всю линейку, его открывают и программа, и расширение для RustGIS, систему координат сцены можно выбрать.",
+   "en": "One scene window for the whole family, opened by the program and by the RustGIS extension, with a selectable scene coordinate system."},
+  {"date": "2026-11-13", "version": "0.3.0",
+   "ru": "Общие с модулем плашка и окно параметров, Солнце и тени от рельефа и тел, выгрузка в GLB, STL и OBJ, кнопка «О программе».",
+   "en": "A toolbar and settings window shared with the plugin, sun and shadows of the relief and bodies, export to GLB, STL and OBJ, an About button."},
+  {"date": "2026-11-13", "version": "0.2.0",
+   "ru": "Связь с QGIS - кнопка модуля открывает сцену, пакет перечитывается сам, обрезка с замкнутыми телами и вид по разрезу.",
+   "en": "A link with QGIS - the plugin button opens the scene, the package reloads by itself, clipping with closed bodies and a section view."},
+  {"date": "2026-11-12", "version": "0.1.0",
+   "ru": "Первый выпуск - пакет сцены .i3dscene в браузере и на Windows с камерой из QGIS.",
+   "en": "The first release - the .i3dscene scene package in the browser and on Windows with the camera from QGIS."}
+ ]}
