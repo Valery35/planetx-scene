@@ -1,0 +1,22 @@
+{"ru": "QGIS Isoliner", "en": "QGIS Isoliner",
+ "releases": "https://github.com/Valery35/qgis-isoliner/releases",
+ "entries": [
+  {"date": "2026-11-15", "version": "5.13.61",
+   "ru": "Загрузка ЦМР получила четвёртый источник - рельеф GEM-15 от Google с ячейкой 15 м.",
+   "en": "The DEM download got a fourth source, the Google GEM-15 terrain with a 15 m cell."},
+  {"date": "2026-11-03", "version": "5.13.47",
+   "ru": "Проекция объектов на разрез больше не теряет объекты при записи в GeoPackage, а английский интерфейс очищен от кириллицы.",
+   "en": "Projecting features onto a section no longer loses features when writing to GeoPackage, and the English interface is free of Cyrillic."},
+  {"date": "2026-10-28", "version": "5.13.43",
+   "ru": "Сток, речная сеть, бассейны, водосборы и линии стока собраны в группе «6. Гидрология».",
+   "en": "Flow, river network, basins, catchments and flow paths are gathered in the group «6. Hydrology»."},
+  {"date": "2026-10-16", "version": "5.13.38",
+   "ru": "Новый инструмент снимает мосты и насыпи переездов с ЦМР, и сток идёт по руслу под ними.",
+   "en": "A new tool removes bridges and crossing embankments from a DEM, so the flow follows the channel beneath them."},
+  {"date": "2026-09-29", "version": "5.13.37",
+   "ru": "Изолинии одного грида после прореживания и сглаживания больше не пересекаются.",
+   "en": "Contours of one grid no longer cross after simplification and smoothing."},
+  {"date": "2026-09-27", "version": "5.13.35",
+   "ru": "Загрузка ЦМР получила третий источник - плитки Mapzen Terrain Tiles.",
+   "en": "The DEM download got a third source, the Mapzen Terrain Tiles."}
+ ]}
