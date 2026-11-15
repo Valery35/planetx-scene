@@ -1,0 +1,13 @@
+{"ru": "QGIS Topoliner", "en": "QGIS Topoliner",
+ "releases": "https://github.com/Valery35/topoliner/releases",
+ "entries": [
+  {"date": "2026-11-15", "version": "0.13.5",
+   "ru": "Слой в девять миллионов вершин проходит очистку, памяти уходит вдвое меньше, а допуск в градусах разбирается предупреждением.",
+   "en": "A layer of nine million vertices passes cleanup within half the former memory, and a tolerance given in degrees raises a warning."},
+  {"date": "2026-11-13", "version": "0.13.4",
+   "ru": "Подсказки полей и варианты списков переведены на английский, у каждого параметра есть подсказка.",
+   "en": "Field hints and list options are translated into English, and every parameter has a hint."},
+  {"date": "2026-11-05", "version": "0.13.3",
+   "ru": "В окне «О модуле» и в справках инструментов появилась ссылка «Поддержать разработку».",
+   "en": "The About window and the tool help now carry a «Support the development» link."}
+ ]}
