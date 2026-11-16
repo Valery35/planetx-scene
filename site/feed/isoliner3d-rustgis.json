@@ -1,6 +1,9 @@
 {"ru": "Isoliner3D для RustGIS", "en": "Isoliner3D for RustGIS",
  "releases": "https://github.com/Valery35/isoliner-scene/releases",
  "entries": [
+  {"date": "2026-11-16", "version": "0.6.0",
+   "ru": "Сцена собирается прямо из слоёв карты RustGIS в её системе координат и сама перечитывает их при смене, нужен RustGIS 0.7.0 и новее.",
+   "en": "The scene is built right from the RustGIS map layers in the map coordinate system and reloads them as they change, RustGIS 0.7.0 or later is needed."},
   {"date": "2026-11-14", "version": "0.5.1",
    "ru": "Своя вкладка на ленте RustGIS с меню инструментов, итоги несут поля исходных объектов.",
    "en": "Its own RustGIS ribbon tab with tool menus, and results keep the fields of their input features."},
