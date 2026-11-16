@@ -1,6 +1,9 @@
 {"ru": "RustPlanetX", "en": "RustPlanetX",
  "releases": "https://github.com/Valery35/rustplanetx/releases",
  "entries": [
+  {"date": "2026-11-16", "version": "0.6.2",
+   "ru": "Для RustGIS 0.7.0 и новее, у Windows, Linux и macOS свой пакет, каждый меньше 23 МБ.",
+   "en": "For RustGIS 0.7.0 and newer, a package of its own for Windows, Linux and macOS, each under 23 MB."},
   {"date": "2026-11-15", "version": "0.6.1",
    "ru": "Глобус для RustGIS на Windows, Linux и macOS, пакет меньше на четверть, внутри Lite 0.30.0.",
    "en": "The globe for RustGIS on Windows, Linux and macOS, a package a quarter smaller, Lite 0.30.0 inside."},
