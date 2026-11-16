@@ -1,6 +1,9 @@
 {"ru": "QGIS Routeliner", "en": "QGIS Routeliner",
  "releases": "https://github.com/Valery35/routeliner/releases",
  "entries": [
+  {"date": "2026-11-16", "version": "0.5.4",
+   "ru": "У модуля появилась своя страница на сайте Информ++, на неё ведут окно «О модуле», справка инструментов и каталог модулей QGIS.",
+   "en": "The plugin has its own page on the Inform++ site, and the About window, the tool help and the QGIS plugin catalogue link to it."},
   {"date": "2026-10-26", "version": "0.5.2",
    "ru": "В окне «О модуле» и в справках инструментов появилась ссылка «Поддержать разработку», а страница модуля на GitHub открывается по-английски.",
    "en": "The About window and the tool help now carry a «Support the development» link, and the plugin page on GitHub opens in English."},
