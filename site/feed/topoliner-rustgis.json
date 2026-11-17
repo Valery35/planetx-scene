@@ -1,6 +1,9 @@
 {"ru": "Topoliner для RustGIS", "en": "Topoliner for RustGIS",
  "releases": "https://github.com/Valery35/topoliner-rustgis/releases",
  "entries": [
+  {"date": "2026-11-17", "version": "0.1.1",
+   "ru": "Нижняя граница RustGIS поднята до 0.7.0, вкладка и одиннадцать инструментов остались прежними.",
+   "en": "The RustGIS lower boundary is raised to 0.7.0, while the ribbon tab and the eleven tools stay the same."},
   {"date": "2026-11-16", "version": "0.1.0",
    "ru": "Топология полигонов и линий без QGIS - одиннадцать инструментов модуля в своей вкладке ленты.",
    "en": "Topology of polygons and lines without QGIS - eleven tools of the plugin in their own ribbon tab."}

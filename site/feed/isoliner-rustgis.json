@@ -1,6 +1,9 @@
 {"ru": "Isoliner для RustGIS", "en": "Isoliner for RustGIS",
  "releases": "https://github.com/Valery35/isoliner-rustgis/releases",
  "entries": [
+  {"date": "2026-11-17", "version": "0.1.3",
+   "ru": "Первая растровая команда 2.05 считает уклон и экспозицию по ЦМР и кладёт два растра в проект, нижняя граница RustGIS теперь 0.7.0.",
+   "en": "The first raster tool 2.05 computes slope and aspect from a DEM and puts two rasters into the project, and the RustGIS lower boundary is now 0.7.0."},
   {"date": "2026-11-16", "version": "0.1.2",
    "ru": "Тринадцать инструментов модуля в своей вкладке ленты, нужен RustGIS 0.6.0 и новее.",
    "en": "Thirteen tools of the plugin in their own ribbon tab, RustGIS 0.6.0 or later is needed."}

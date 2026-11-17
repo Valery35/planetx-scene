@@ -1,6 +1,9 @@
 {"ru": "QGIS Isoliner", "en": "QGIS Isoliner",
  "releases": "https://github.com/Valery35/qgis-isoliner/releases",
  "entries": [
+  {"date": "2026-11-17", "version": "5.13.61",
+   "ru": "Загрузка ЦМР получила четвёртый источник GEM-15 от Google с ячейкой 15 м, отдельно DTM и DSM, канал выбирается в дополнительных параметрах.",
+   "en": "The DEM download got a fourth source, GEM-15 by Google Research with a 15 m cell, and separate DTM and DSM channels chosen in the advanced parameters."},
   {"date": "2026-11-03", "version": "5.13.47",
    "ru": "Проекция объектов на разрез больше не теряет объекты при записи в GeoPackage, а английский интерфейс очищен от кириллицы.",
    "en": "Projecting features onto a section no longer loses features when writing to GeoPackage, and the English interface is free of Cyrillic."},
